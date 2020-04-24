@@ -52,7 +52,7 @@ For a single person, use a VS code liveshare session (or equivalent) and let the
 
 ## Dependencies
 
-To gain time, a boilerplate with tools and dependencies in place will be given:
+To gain time, some tools and dependencies are already in place :
 
 - react
 - prop-types
@@ -65,10 +65,37 @@ To gain time, a boilerplate with tools and dependencies in place will be given:
 - @material-ui/icons
 - @material-ui/styles
 
-###### tools
+#### dev-tools
 - eslint
 - prettier
+- redux-devtools
+- react-devtools
 
+## API
+
+To build this app, we use an API that returns articles.
+The methods to fetch the API are already coded in `src/utils/api.utils.js`
+
+The data model:
+
+```go
+// ArticlesType represents the articles collection in the database
+type ArticlesType []map[string]interface{}
+
+// ArticleFieldsType defines the structure of the fields in an article from the articles collection.
+type ArticleFieldsType struct {
+	ID          string  `firestore:"id"`
+	Name        string  `firestore:"name"`
+	Price       float64 `firestore:"price"`
+	Type        string  `firestore:"type"`
+	Year        string  `firestore:"year"`
+	Image       string  `firestore:"image"`
+	Description string  `firestore:"description"`
+	Slug        string  `firestore:"slug"`
+}
+```
+
+The `getArticles` method will return the articles collection as body of the `GET` request.
 
 ## Functional Specs
 
