@@ -129,5 +129,21 @@ The `getArticles` method will return the articles collection as body of the `GET
   - an `add to cart` cta
   - a `view` (article) cta
 
+## Cheat sheet
 
+- Redux: https://codesandbox.io/s/9on71rvnyo
+- Material-UI:
+  - Install: https://material-ui.com/getting-started/installation/
+  - Styling: https://material-ui.com/styles/api/#makestyles-styles-options-hook
+  
+  - Container:  https://material-ui.com/components/container/
+  - Grid:  https://material-ui.com/components/grid/
+  - AppBar: https://material-ui.com/components/app-bar/
+  - Paper:  https://material-ui.com/components/paper/
+  - Card: https://material-ui.com/components/card/
+  - Button: https://material-ui.com/components/button/
+  - Typography:  https://material-ui.com/components/typography/
+  - Modal:  https://material-ui.com/components/modal/
 
+  - Icons: https://material-ui.com/components/material-icons/
+- React Context/Reducer: https://kentcdodds.com/blog/how-to-use-react-context-effectively
