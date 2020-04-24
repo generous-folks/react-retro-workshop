@@ -21,7 +21,7 @@ For a single person, use a VS code liveshare session (or equivalent) and let the
 
 ## Getting started
 
-- `git clone https://github.com/hpierre74/react-retro-workshop`
+- `git clone https://github.com/generous-folks/react-retro-workshop`
 - `yarn && yarn start`
 
 ## Steps
